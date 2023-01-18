@@ -19,8 +19,15 @@ This project was compeleted and updated to C++ during fall 2022, ICS 212. This A
 
 <img class="img-fluid" src="../img/bank-database-application/interface.png">
 
-<sub>user-interface as showing</sub>
+     <sub>user-interface as showing</sub>
 
-In database program which will do: Add record, print all records, find record, delete record, write in to a file or read a file. 
+In database program which will do: Add record, print all records, find record, and delete record. Here are some source code you can have a look.
+
+addRecord: by given user account numbers, name and address. This function will list the record in the correct position and soted in descending order of account numbers
+printAllRecords: print out all the record that database had recorded 
+findRecord: find record(s) with a account number
+deleteRecord: delete record(s) with a account number
 
 Source: <a href="https://github.com/Alexander-Hung/alexander-hung.github.io/tree/main/projects/bank-database-application/code.c">/projects/bank-database-application/code.c</a>
+
+
