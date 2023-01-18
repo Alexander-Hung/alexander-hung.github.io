@@ -18,7 +18,6 @@ summary: "A Bank Database Application that can manage customer's bank records st
 This project was compeleted and updated to C++ during fall 2022, ICS 212. This Application have user-interface that allow user to interacte with all the option they want. Once user had input all requested information in the interface, program will record and order it in descending order in the database. 
 
 <img class="img-fluid" src="../img/bank-database-application/interface.png">
-<sub>user-interface as showing</sub>
 
 In database program which will do: Add record, print all records, find record, and delete record. Here are some source code you can have a look.
 
