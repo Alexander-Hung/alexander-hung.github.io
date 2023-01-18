@@ -4,7 +4,7 @@ type: project
 image: img/vacay/vacay-square.png
 title: "Bank Database Application"
 date: 2022
-published: false
+published: true
 labels:
   - C
   - C++
