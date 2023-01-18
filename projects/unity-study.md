@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/
+image: img/unity-study/pexels-garrett-morrow-682933.jpg
 title: "Unity Study"
 date: 2023
 published: true
