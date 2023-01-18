@@ -26,6 +26,10 @@ printAllRecords: print out all the record that database had recorded
 findRecord: find record(s) with a account number
 deleteRecord: delete record(s) with a account number
 
-Source: <a href="https://github.com/Alexander-Hung/alexander-hung.github.io/tree/main/projects/bank-database-application/code.c">/projects/bank-database-application/code.c</a>
+Source code: <a href="https://github.com/Alexander-Hung/alexander-hung.github.io/tree/main/projects/bank-database-application/code.c">/projects/bank-database-application/code.c</a>
 
+**Update:**
 
+Here is a update for the project, I successed made the application with C++. In addition, database will write the record into a binary file which can pervide more security of the file.
+
+Source code: <a href="https://github.com/Alexander-Hung/alexander-hung.github.io/tree/main/projects/bank-database-application/code.c">/projects/bank-database-application/code.cpp</a>
