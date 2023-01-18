@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Reflect on Javascript 1"
+title: "What happen after learning Javascript?"
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-18
 published: true
