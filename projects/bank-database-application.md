@@ -32,4 +32,4 @@ Source code: <a href="https://github.com/Alexander-Hung/alexander-hung.github.io
 
 Here is a update for the project, I successed made the application with C++. In addition, database will write the record into a binary file which can pervide more security of the file.
 
-Source code: <a href="https://github.com/Alexander-Hung/alexander-hung.github.io/tree/main/projects/bank-database-application/code.c">/projects/bank-database-application/code.cpp</a>
+Source code: <a href="https://github.com/Alexander-Hung/alexander-hung.github.io/tree/main/projects/bank-database-application/code.cpp">/projects/bank-database-application/code.cpp</a>
