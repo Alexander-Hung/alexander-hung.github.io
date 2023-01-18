@@ -11,9 +11,9 @@ labels:
   - Reflections
 ---
 
-<img width="600px" class="rounded float-start pe-4" src="../img/javascript-1/icon-gcf7e52cfb_1280.png"><br />
+<img width="600px" class="rounded float-start pe-4" src="../img/javascript-1/icon-gcf7e52cfb_1280.png">
 
-##
+<p> </p>
 
 ## First contact with Javascript
 
