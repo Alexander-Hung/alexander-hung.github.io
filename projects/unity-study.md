@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/bank-database-application/
+image: img/
 title: "Unity Study"
 date: 2023
 published: true
