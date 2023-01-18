@@ -12,8 +12,9 @@ labels:
 ---
 
 <img width="600px" class="rounded float-start pe-4" src="../img/javascript-1/icon-gcf7e52cfb_1280.png">
-/
-/
+
+//
+
 ## First contact with Javascript
 
 In FreeCodeCamp, I completed and learned the fundamentals of JavaScript, including variables, arrays, objects, loops, and functions. According to my understanding, the three most essential elements of front-end web development: are HTML, CSS, and JavaScript. A characteristic of front-end development is that many UI libraries and frameworks exist where Javascript is concerned. 
