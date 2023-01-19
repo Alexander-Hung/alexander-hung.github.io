@@ -27,15 +27,6 @@ One rotation method I have learned to use is for each person to express what the
 
 After discussing face-to-face and online public speaking in class, I think there are more disadvantages to face-to-face than online. But the feedback given face-to-face is better and more challenging. Because what comes from the body language available for online presentations is to give the audience a better understanding. Whereas in ARCS strategies, I think there is a better chance of having a small group to allow everyone to have a discussion. Allowing the group to voluntarily assign the content of the presentation would also help all members of the group to consolidate the results of their discussion (I think random assignment would work better). With the number of courses I have this semester and the requirements of the different courses, I think I will assign different work times each day for each course based on assignment submission times.
 
-<img width="600px" class="img-fluid" src="../img/ics-111-ata/discord.png">
 
-
-
-Source: <a href=""></a>
-
-**Update:**
-
-
-
-**Summay:**
-
+<sub>**Update will coming soon:**</sub>
+<sub>Unity game project</sub>
