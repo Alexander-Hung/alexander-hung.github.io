@@ -18,7 +18,24 @@ To start with the unity, I going to test and find out how to make an object drop
 
 <img class="img-fluid" src="../img/unity-study/MakeDrops/week1a.png">
 
+Drops.sc
 
+'''
+elapsedTime += Time.deltaTime;
+		if (elapsedTime >= delayBetweenDrops) {
+			elapsedTime = 0f;
+			GameObject n = Instantiate(prefab);
+			n.AddComponent(typeof(CubeScript));
+		}
+'''
+
+CubeScripte.sc
+
+'''
+if(transform.position.y < 0) {
+			Destroy(gameObject);
+		}
+'''
 
 <img class="img-fluid" src="../img/unity-study/MakeDrops/week2a.png">
 
