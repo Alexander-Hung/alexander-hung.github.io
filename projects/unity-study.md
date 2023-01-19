@@ -16,7 +16,7 @@ This is the study record of how and what I'm going to study and what I make with
 
 To start with the unity, I going to test and find out how to make an object drop.
 
-<img class="img-fluid" src="../img/unity-study/MakeDrops/week1a.png">
+<img width="600px" class="img-fluid" src="../img/unity-study/MakeDrops/week1a.png">
 
 Drops.sc
 
@@ -37,7 +37,7 @@ if(transform.position.y < 0) {
 }
 ```
 
-<img class="img-fluid" src="../img/unity-study/MakeDrops/week2a.png">
+<img width="600px" class="img-fluid" src="../img/unity-study/MakeDrops/week2a.png">
 
 
 
