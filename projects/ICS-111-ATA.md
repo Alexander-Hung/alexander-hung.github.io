@@ -29,4 +29,4 @@ After discussing face-to-face and online public speaking in class, I think there
 
 
 <sub>**Update will coming soon:**</sub>
-<sub>Unity game project</sub>
+<sub>Week of teaching</sub>
