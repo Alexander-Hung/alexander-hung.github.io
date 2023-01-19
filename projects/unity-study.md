@@ -20,22 +20,22 @@ To start with the unity, I going to test and find out how to make an object drop
 
 Drops.sc
 
-'''
+```ruby
 elapsedTime += Time.deltaTime;
-		if (elapsedTime >= delayBetweenDrops) {
-			elapsedTime = 0f;
-			GameObject n = Instantiate(prefab);
-			n.AddComponent(typeof(CubeScript));
-		}
-'''
+    if (elapsedTime >= delayBetweenDrops) {
+        elapsedTime = 0f;
+	GameObject n = Instantiate(prefab);
+	n.AddComponent(typeof(CubeScript));
+    }
+```
 
 CubeScripte.sc
 
-'''
+```ruby
 if(transform.position.y < 0) {
-			Destroy(gameObject);
-		}
-'''
+    Destroy(gameObject);
+}
+```
 
 <img class="img-fluid" src="../img/unity-study/MakeDrops/week2a.png">
 
