@@ -37,6 +37,8 @@ if(transform.position.y < 0) {
 }
 ```
 Drops.sc is the script make the object show in the scene, it's a component that control the time the object spawn and add component to every object it spawn.
+
+
 <img width="600px" class="img-fluid" src="../img/unity-study/MakeDrops/week2a.png">
 
 Here's what it look like in the play mode.
@@ -44,5 +46,4 @@ Here's what it look like in the play mode.
 
 
 <sub>**Update will coming soon:**</sub>
-
 <sub>Unity game project</sub>
