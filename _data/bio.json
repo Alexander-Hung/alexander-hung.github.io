@@ -37,7 +37,7 @@
       "studyType": "A.S.",
       "startDate": "2020-09-01",
       "endDate": "2021-05-13",
-      "courses": ["MATH 241/242", "PHYS 170/272", "PHYS 170L/272L"
+      "courses": ["MATH 241 : Calculus I", "MATH 242 : Calculus II", "PHYS 170 : Physics I", "PHYS 272 : Physics II", "ART 125 :  Intro Graphic Design",
       ]
     },
     {
@@ -46,7 +46,7 @@
       "studyType": "B.S.",
       "startDate": "2021-09-01",
       "endDate": "Present",
-      "courses": [
+      "courses": ["ICS 111 : Intro to Computer Science I", "ICS 141 : Discrete Math for CS I", "ICS 211 : Intro to Computer Science II", "ICS 241 : Disc Math for Comp Sci II", "ICS 212 : Program Structure", "ICS 235 : Machine Learning Methods", "ICS 311 : Algorithms", "ICS 314 : Software Engineering I(current)", "ICS 369 : Computational Media Systems(current)", "ICS 390 : Computing Ethics for LAs(current)", "ART 116 : Intro to 3-D Composition", "MATH 307 : Linear Alg & Diff Eq", "MATH 372 : Elem Probability & Statistics", "CHEM 161 : General Chemistry I(current)", 
       ]
     }
   ],
