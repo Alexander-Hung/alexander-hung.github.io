@@ -35,18 +35,17 @@ is a good title.
 
 You then need to provide the necessary information accurately：
 
-`+ Describe the symptoms of your problem or bug carefully and clearly.
++ `Describe the symptoms of your problem or bug carefully and clearly.`
 
-`+ Describe the environment in which it occurs (machine, OS, application, whatever).`
++ `Describe the environment in which it occurs (machine, OS, application, whatever).`
 
-`+ Describe the research you did to try and understand the problem before you asked the question.`
++ `Describe the research you did to try and understand the problem before you asked the question.`
 
-`+ Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.`
++ `Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.`
 
-`+ Describe any possibly relevant recent changes in your computer or software configuration.`
++ `Describe any possibly relevant recent changes in your computer or software configuration.`
 
-`+ If at all possible, provide a way to reproduce the problem in a controlled environment.`
-
++ `If at all possible, provide a way to reproduce the problem in a controlled environment.`
 
 ### "Why" 
 
