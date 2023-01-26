@@ -31,7 +31,7 @@ So, what is the smart question? First, you need a title, preferably at most 50 c
 `Help me fix my code, it doesn't work.` 
 This title will only prevent others from simply understanding what problem you are experiencing. And this title: 
 <a href="https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it/">What is a NullPointerException, and how do I fix it?</a> 
-And this is a good title.
+is a good title.
 
 ### "Why" 
 
