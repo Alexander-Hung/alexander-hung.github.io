@@ -36,17 +36,20 @@ is a good title.
 You then need to provide the necessary information accurately：
 
 + `Describe the symptoms of your problem or bug carefully and clearly.`
-
 + `Describe the environment in which it occurs (machine, OS, application, whatever).`
-
 + `Describe the research you did to try and understand the problem before you asked the question.`
-
 + `Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.`
-
 + `Describe any possibly relevant recent changes in your computer or software configuration.`
-
 + `If at all possible, provide a way to reproduce the problem in a controlled environment.`
+
+In more detail, in addition to the most basic assurance of grammatical correctness, you need to be more detailed to give the most basic information the respondent needs (no other useless details are required). For example, you don't need to send all your hundreds of lines of code when asking for code. Last is to observe the most basic network etiquette; communication in the network and the actual communication are the same.
+
+Good: `I accidentally committed the wrong files to Git, but didn't push the commit to the server yet.
+How do I undo those commits from the local repository?` Source: <a href="https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it">How do I undo the most recent local commits in Git?</a> 
+
+Bad:
+`I want to install a piece of hardware on my computer, but I can't do it. This is very urgent, please help me?`
 
 ### "Why" 
 
-
+Finally, why should we follow these "rules"? Because when we seek questions, we don't give anything to the person who answers in return. Like the ancient Chinese who sought to learn, we must respect each other and ask politely because only relentless effort will be rewarded, even when you ask for help. And it is because you ask for help you must abide by what we often call "morality."
