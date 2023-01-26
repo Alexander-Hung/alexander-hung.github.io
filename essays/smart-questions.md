@@ -27,7 +27,11 @@ We all know how we will seek help as a student; yes, we have professors to help 
 
 ### "What"
 
-So, what is the smart question? First, you need a title, preferably at most 50 characters. It is essential that this subject heading makes sense. This title must get straight to the point because it will attract people to help you. After all, when they see the title, others can know if they are capable of helping you instead. And other titles that beat around the bush, such as: > Help me fix my code, it doesn't work. This title will only prevent others from simply understanding what problem you are experiencing. And this title: > <a href="https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it/">What is a NullPointerException, and how do I fix it?</a> And this is a good title.
+So, what is the smart question? First, you need a title, preferably at most 50 characters. It is essential that this subject heading makes sense. This title must get straight to the point because it will attract people to help you. After all, when they see the title, others can know if they are capable of helping you instead. And other titles that beat around the bush, such as: 
+`Help me fix my code, it doesn't work.` 
+This title will only prevent others from simply understanding what problem you are experiencing. And this title: 
+`<a href="https://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it/">What is a NullPointerException, and how do I fix it?</a> `
+And this is a good title.
 
 ### "Why" 
 
