@@ -16,7 +16,9 @@ To start with the unity, I going to test and find out how to make an object drop
 
 <img width="600px" class="img-fluid" src="../img/unity-study/MakeDrops/week1a.png">
 
-I found out if you just add physical properties to an object, the object will only be created infinitely and no extra objects will be deleted. But in C# script, I can wrote the time when the object will be spawn, and everytime it spawn will add component to the object which will destroy all the object when its y = 0.
+I found out if you just add physical properties to an object, the object will only be created infinitely and no extra 
+objects will be deleted. But in C# script, I can wrote the time when the object will be spawn, and everytime it spawn 
+will add component to the object which will destroy all the object when its y = 0.
 
 Drops.sc
 
@@ -36,7 +38,8 @@ if(transform.position.y < 0) {
     Destroy(gameObject);
 }
 ```
-Drops.sc is the script make the object show in the scene, it's a component that control the time the object spawn and add component to every object it spawn.
+Drops.sc is the script make the object show in the scene, it's a component that control the time the object spawn and 
+add component to every object it spawn.
 
 
 <img width="600px" class="img-fluid" src="../img/unity-study/MakeDrops/week2a.png">
