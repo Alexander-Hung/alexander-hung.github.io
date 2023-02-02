@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/
+image: img/art-portfolio/0.jpg
 title: "Digital Art Portfolio"
 date: 2022
 published: true
