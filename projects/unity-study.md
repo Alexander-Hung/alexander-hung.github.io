@@ -9,44 +9,58 @@ labels:
   - Unity Hub
   - C#
   - Game Design
-summary: "This is the study record of how and what I'm going to study and what I make with unity huhb in ICS 369. "
+summary: "This is the summary of what and how I study and what I make with unity hub in ICS 369. "
 ---
 
-To start with the unity, I going to test and find out how to make an object drop.
+- 3D Object: 
+  - Prefab: use basic 3D object to create every game object and scenes object.
+  - Camera: Camera that show the view for players.
+  - Texture: By adding picture or color to add the texture to 3D object.
 
-<img width="600px" class="img-fluid" src="../img/unity-study/MakeDrops/week1a.png">
+<img class="img-fluid" src="../img/unity-study/1.png">
 
-I found out if you just add physical properties to an object, the object will only be created infinitely and no extra 
-objects will be deleted. But in C# script, I can wrote the time when the object will be spawn, and everytime it spawn 
-will add component to the object which will destroy all the object when its y = 0.
+- Scenes: scenes and use all assets, 3D object and script to make players see everything that designer want to show.
 
-Drops.sc
+- Script:
+  - Script Graph: use different notes to do all function what coding script can do.
+
+    <img class="img-fluid" src="../img/unity-study/2.png">
+
+  - C# Script: C# coding that have more available function that can make action even easier.
 
 ```ruby
-elapsedTime += Time.deltaTime;
-    if (elapsedTime >= delayBetweenDrops) {
-        elapsedTime = 0f;
-	GameObject n = Instantiate(prefab);
-	n.AddComponent(typeof(CubeScript));
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerJump : MonoBehaviour
+{
+    public float speed = 10f;
+    public Rigidbody rb;
+    private bool _isJumping = false;
+    // Start is called before the first frame update
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
     }
-```
 
-CubeScripte.sc
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && _isJumping == false)
+        {
+            rb.AddForce(Vector3.up * speed, ForceMode.Impulse);
+            _isJumping = true;
 
-```ruby
-if(transform.position.y < 0) {
-    Destroy(gameObject);
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Platform")
+        {
+            _isJumping = false;
+        }
+    }
 }
 ```
-Drops.sc is the script make the object show in the scene, it's a component that control the time the object spawn and 
-add component to every object it spawn.
-
-
-<img width="600px" class="img-fluid" src="../img/unity-study/MakeDrops/week2a.png">
-
-Here's what it look like in the play mode.
-
-
-
-<sub>**Update will coming soon:**</sub>
-<sub>Unity game project</sub>
