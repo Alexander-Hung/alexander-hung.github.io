@@ -11,7 +11,7 @@ labels:
   - 3D
 summary: "Understanding of realistic 3D objects and creation with these 3D object."
 ---
-Planes and patterns: 
+### Planes and patterns: 
 
 - Task: Recreate a selected closed toe shoe in exquisite detail completely from cardboard.
 - Insight: The shoe is divided into two parts: the bottom and the body. Insert the body into the bottom 
@@ -21,7 +21,7 @@ fine the shape of the design needed to make the shoe needs to be in order to ass
 <img width="600px" class="img-fluid" src="../img/art-portfolio/1.png">
 
 
-Body transformations share out:
+### Body transformations share out:
 
 - Task: Create a cardboard (or wood) sculpture that is placed on your body and in doing so transforms your 
 body.
@@ -31,7 +31,7 @@ cardstock takes a lot of time to make details, art takes time.
 <img width="600px" class="img-fluid" src="../img/art-portfolio/2.png">
 
 
-Soft - Materials and metaphors:
+### Soft - Materials and metaphors:
 
 - Task: deconstruct a pre-existing object - something worn or made for the human body and reconstruct that 
 form in a different material or materials so as to either exaggerate, contradict or subvert the object’s 
@@ -43,7 +43,7 @@ long ago resulting in a large amount of bubble wrap in my home.
 <img width="600px" class="img-fluid" src="../img/art-portfolio/3.png">
 
 
-Goldsworthy inspired site-specific sculpture: 
+### Goldsworthy inspired site-specific sculpture: 
 
 - Task: Create and document a temporary sculpture in the spirit of Fischli and Weiss’ Equilibre/Quiet 
 Afternoon using found objects from around the house.
@@ -51,7 +51,7 @@ Afternoon using found objects from around the house.
 
 <img width="600px" class="img-fluid" src="../img/art-portfolio/4.png">
 
-Agency - The relational body: 
+### Agency - The relational body: 
 
 - Task: Create a physical sculpture that connects you to another social creature, elemental force, 
 building or spiritual entity, and in doing so enhances or impeded an intended relationship.
