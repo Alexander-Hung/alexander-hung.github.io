@@ -12,7 +12,7 @@ labels:
    - Coding Standards
 ---
 
-<img width="600px" class="rounded float-start pe-4" src="../img/pexels-photo-330771.jpg">
+<img width="600px" class="rounded float-start pe-4" src="../img/pexels-photo-330771.jpeg">
 
 <p> </p>
 
@@ -26,7 +26,7 @@ Coding standards are software code guidelines that ensure consistency, clarity, 
 - Naming conventions: Naming standards allow other programmers to understand better the role memory of variables to track the scope of where the variables are located.
 - Commenting: Proper commenting allows for a better explanation of what the code does to increase maintainability later.
 
-## Why is Coding Standards
+## Why using Coding Standards
 
 
 
