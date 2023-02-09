@@ -70,6 +70,8 @@ This is an example of using coding standards:
         }
 ```
 
+You can clearly see that when a newbie wrote a code has a for loop and an if statement aligned together it is difficult to understand whether the if statement is in the for loop or not, but using code standards is different.
+
 ## How is Coding Standards
 
 What do I think after using the coding standards? The coding standard may be too rigid, and the process of debugging the program takes a lot of time to modify the format and increases the working time. But this was only when I started using coding standards; I used them in eclipse. It took me a few assignments to gradually change my coding habits, but I managed to avoid many mistakes and understand and modify the program. So, all in all, I have a favorable view of coding standards.
