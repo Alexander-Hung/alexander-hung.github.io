@@ -31,7 +31,13 @@ These three benefits are enough for most developers to use UI frameworks. Howeve
 
 ## Potential Drawbacks of UI Frameworks
 
+Nothing is perfect, and UI frameworks are one of them. Among the shortcomings of UI, frameworks can lead to worse problems that can affect beginners learning to develop. And some problems can make programming less creative. So let's understand the disadvantages of UI frameworks.
 
+- Bloated code:  The code in UI frameworks may not know how to shed as much as a developer can and can be treated as a programming language. Using templates often comes with many pre-built codes that may be optional for a particular project. This can lead to code bloat and slower load times, affecting the user experience. But it also depends on what UI framework is in place; some may be optimized for template code.
+
+- Lack of flexibility: Templates and components in UI frameworks may limit the developer's ability to be creative and flexible with the design. Because of the UI framework's uniformity of standards, it may need to be more varied and consistent for developers to write content. This can also significantly change the developer's perception of aesthetics: too generic.
+
+- Over-reliance on pre-built components: It is simple for programmers to rely too heavily on pre-built components, which might create unoriginal designs. This may result in websites and software that appears and feels generic. It can also significantly limit a developer's ability to learn the language and handle different frameworks.
 
 ## Personal Experience
 
