@@ -13,7 +13,7 @@ labels:
    - Bootstrap
 ---
 
-<img width="600px" class="rounded float-start pe-4" src="../img/pexels-photo-330771.jpeg">
+<img width="600px" class="rounded float-start pe-4" src="../img/double-edged-sword.jpg">
 
 <p> </p>
 
@@ -26,6 +26,8 @@ UI framework is the user interface framework, but also the UI template. And most
 - Design consistency: Because the UI framework comes with templates and components can use components to standardize the page format, such as the centering of web elements and the space between elements and other tedious adjustments. This also dramatically reduces the inconsistency between web elements and other problems.
 
 - Multi-platform friendly design: UI frameworks can also be better adapted to different screen sizes and devices, ensuring that the website or application is accessible and user-friendly on any device. And the developer does not have to adjust as well as modify and reduce for different devices.
+
+These three benefits are enough for most developers to use UI frameworks. However, the benefits of UI frameworks are not the only three points where UI frameworks can save money on development and where open source UI frameworks can provide a better community to provide development help.
 
 ## Potential Drawbacks of UI Frameworks
 
