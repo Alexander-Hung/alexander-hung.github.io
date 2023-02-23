@@ -1,0 +1,78 @@
+{
+  "basics": {
+    "name": "Alexander Hung",
+    "label": "Student",
+    "picture": "https://github.com/alexander-hung.png",
+    "email": "hungalex@hawaii.edu",
+    "phone": "808-639-2362",
+    "website": "https://alexander-hung.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "alexander-hung", "url": "http://github.com/alexander-hung" },
+      { "network": "linkedin", "username": "Alexander Hung", "url": "https://www.linkedin.com/in/alexandertrhung/" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Data Analysis" },
+    { "name": "Game Design" },
+    { "name": "Anime" },
+    { "name": "Video Game" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "Unity" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows 10", "Ubuntu", "Git/GitHub", "g++", "Android", "Unity hub", "vi" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Kauai Community College, Lihue, HI",
+      "area": "Physical Sciences",
+      "studyType": "A.S.",
+      "startDate": "2020-09-01",
+      "endDate": "2021-05-13",
+      "courses": ["MATH 241 : Calculus I", "MATH 242 : Calculus II", "PHYS 170 : Physics I", "PHYS 272 : Physics II", "ART 125 :  Intro Graphic Design",
+      ]
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021-09-01",
+      "endDate": "Present",
+      "courses": ["ICS 111 : Intro to Computer Science I", "ICS 141 : Discrete Math for CS I", "ICS 211 : Intro to Computer Science II", "ICS 241 : Disc Math for Comp Sci II", "ICS 212 : Program Structure", "ICS 235 : Machine Learning Methods", "ICS 311 : Algorithms", "ICS 314 : Software Engineering I(current)", "ICS 369 : Computational Media Systems(current)", "ICS 390 : Computing Ethics for LAs(current)", "ART 116 : Intro to 3-D Composition", "MATH 307 : Linear Alg & Diff Eq", "MATH 372 : Elem Probability & Statistics", "CHEM 161 : General Chemistry I(current)", 
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "2022",
+      "awarder": "UH Manoa",
+      "summary": ""
+    },
+    {
+      "title": "Dean's List",
+      "date": "2020-2021",
+      "awarder": "Kauai CC",
+      "summary": ""
+    },
+    {
+      "title": "WAI'ALE'ALE PROJECT",
+      "date": "2020-2021",
+      "awarder": "Kauai CC",
+      "summary": "This scholarship is available to first-year students who start school in Fall and have been referred to Wai'ale'ale due to financial constraints or other barriers. The Wai'ale'ale Project is a special program funded by generous donors and community foundations. This program gives eligible Kaua'i and Ni'ihau residents an opportunity to take classes at Kaua'i Community College for free. The Wai'ale'ale Project offers scholarships and academic support to participants who would like to take a few classes or complete an entire academic program to receive Certificates an Associate Degrees."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

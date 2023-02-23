@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Unity Study | Alexander Hung | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/alexander-hung.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Alexander Hung | Professional Portfolio">
+    <meta property="og:url" content="https://techfolios.github.io/projects/unity-study.html">
+    <meta property="og:title" content="Unity Study | Alexander Hung | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/alexander-hung.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Unity Study | Alexander Hung | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Alexander Hung</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Unity Study</h1>
+ <ul>
+  <li>3D Object:
+    <ul>
+      <li>Prefab: use basic 3D object to create every game object and scenes object.</li>
+      <li>Camera: Camera that show the view for players.</li>
+      <li>Texture: By adding picture or color to add the texture to 3D object.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img class="img-fluid" src="../img/unity-study/1.png" /></p>
+
+<ul>
+  <li>
+    <p>Scenes: scenes and use all assets, 3D object and script to make players see everything that designer want to show.</p>
+  </li>
+  <li>
+    <p>Script:</p>
+    <ul>
+      <li>
+        <p>Script Graph: use different notes to do all function what coding script can do.</p>
+
+        <p><img class="img-fluid" src="../img/unity-study/2.png" /></p>
+      </li>
+      <li>
+        <p>C# Script: C# coding that have more available function that can make action even easier.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">using</span> <span class="no">System</span><span class="o">.</span><span class="no">Collections</span><span class="p">;</span>
+<span class="n">using</span> <span class="no">System</span><span class="o">.</span><span class="no">Collections</span><span class="o">.</span><span class="no">Generic</span><span class="p">;</span>
+<span class="n">using</span> <span class="no">UnityEngine</span><span class="p">;</span>
+
+<span class="kp">public</span> <span class="k">class</span> <span class="nc">PlayerJump</span> <span class="p">:</span> <span class="no">MonoBehaviour</span>
+<span class="p">{</span>
+    <span class="kp">public</span> <span class="n">float</span> <span class="n">speed</span> <span class="o">=</span> <span class="mi">10</span><span class="n">f</span><span class="p">;</span>
+    <span class="kp">public</span> <span class="no">Rigidbody</span> <span class="n">rb</span><span class="p">;</span>
+    <span class="kp">private</span> <span class="n">bool</span> <span class="n">_isJumping</span> <span class="o">=</span> <span class="kp">false</span><span class="p">;</span>
+    <span class="sr">//</span> <span class="no">Start</span> <span class="n">is</span> <span class="n">called</span> <span class="n">before</span> <span class="n">the</span> <span class="n">first</span> <span class="n">frame</span> <span class="n">update</span>
+    <span class="n">void</span> <span class="no">Start</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">rb</span> <span class="o">=</span> <span class="no">GetComponent</span><span class="o">&lt;</span><span class="no">Rigidbody</span><span class="o">&gt;</span><span class="p">();</span>
+    <span class="p">}</span>
+
+    <span class="sr">//</span> <span class="no">Update</span> <span class="n">is</span> <span class="n">called</span> <span class="n">once</span> <span class="n">per</span> <span class="n">frame</span>
+    <span class="n">void</span> <span class="no">Update</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="no">Input</span><span class="o">.</span><span class="no">GetKeyDown</span><span class="p">(</span><span class="no">KeyCode</span><span class="o">.</span><span class="no">Space</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">_isJumping</span> <span class="o">==</span> <span class="kp">false</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">rb</span><span class="o">.</span><span class="no">AddForce</span><span class="p">(</span><span class="no">Vector3</span><span class="p">.</span><span class="nf">up</span> <span class="o">*</span> <span class="n">speed</span><span class="p">,</span> <span class="no">ForceMode</span><span class="o">.</span><span class="no">Impulse</span><span class="p">);</span>
+            <span class="n">_isJumping</span> <span class="o">=</span> <span class="kp">true</span><span class="p">;</span>
+
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="n">void</span> <span class="no">OnCollisionEnter</span><span class="p">(</span><span class="no">Collision</span> <span class="n">collision</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">collision</span><span class="p">.</span><span class="nf">gameObject</span><span class="p">.</span><span class="nf">tag</span> <span class="o">==</span> <span class="s2">"Platform"</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">_isJumping</span> <span class="o">=</span> <span class="kp">false</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
