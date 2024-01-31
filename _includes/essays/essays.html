@@ -6,7 +6,7 @@
       </div>
     </div>
 
-    <div class="row g-3">
+    <div class="vstack gap-3">
       {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
       {% for page in essay_pages %}
         {% unless page.draft %}

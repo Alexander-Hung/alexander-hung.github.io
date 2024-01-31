@@ -1,4 +1,18 @@
-<div class="col-md-6 col-lg-4" xmlns="http://www.w3.org/1999/html">
+<head>
+  <style>
+    :root {
+      --tf-pill-bg: white; /* Example background color */
+    }
+    .badge {
+      color: #93a1a1; /* Text color */
+      border: 2px solid #dee2e6; /* Border color and width */
+    }
+    .rounded-pill {
+      border-radius: 50rem; /* Adds rounded corners to the badge */
+    }
+  </style>
+</head>
+<div class="card mb-3">
   <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">{{ include.page.title }}</h5>
@@ -6,7 +20,7 @@
       <p class="card-text">{{ include.page.content | markdownify | strip_html | truncatewords: 40 }}</p>
       <p>
         {% for label in include.page.labels %}
-        <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+        <span style="background-color: var(--tf-pill-bg); color: #93a1a1;" class="badge rounded-pill">{{ label }}</span>
         {% endfor %}
       </p>
     </div>
