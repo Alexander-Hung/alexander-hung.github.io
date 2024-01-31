@@ -15,7 +15,7 @@ summary: "A Demo of a 3D Dungeon Crawler in SPACE!!"
 ## Demo
 [![Watch the video](../img/starfarers-abyss/IMG_1295.png)](https://youtu.be/-nENgiX8vfo)
 
-Watch the video
+Click image to Watch the video
 
 ## Description
 
@@ -46,6 +46,6 @@ Gwyneth Raquepo, Kayla Hirano, Anh Nguyen, Marissa Halim, Alexander Hung
 
 ## Link
 
-#### <a href="https://github.com/Alexander-Hung/ICS369-Final-Project">Project Repo</a>
+#### <a href="https://github.com/Alexander-Hung/ICS369-Final-Project">Click for Project Repo</a>
 
-#### <a href="https://youtu.be/-nENgiX8vfo">Demo Video</a>
+#### <a href="https://youtu.be/-nENgiX8vfo">Click for Demo Video</a>

@@ -14,6 +14,7 @@ labels:
   - MongoDB
   - GitHub
 summary: "Study Buddy, Application, and Interests for the UH Community"
+projecturl: https://github.com/manoa-icstudy/manoa-icstudy
 ---
 
 <img class="img-fluid" src="https://manoa-icstudy.github.io/images/LandingPage.png">
@@ -68,8 +69,6 @@ In this project, I was responsible for:
 - Using Github to provide version control for software development. 
 - Ways to manage database commands and utilization, etc.
 
-## Link
+#### <a href="https://github.com/manoa-icstudy">Click for Organization</a>
 
-#### <a href="https://github.com/manoa-icstudy">Organization</a>
-
-#### <a href="https://manoa-icstudy.github.io/">manoa-icstudy.github.io</a>
+#### <a href="https://manoa-icstudy.github.io/">Click for manoa-icstudy guideline</a>
