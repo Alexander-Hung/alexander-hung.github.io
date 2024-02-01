@@ -3,18 +3,16 @@ layout: project
 type: project
 image: img/Manoa-icstudy.png
 title: "Manoa ICStudy"
-date: 2023
+date: 2022-12-01
 published: true
 labels:
   - JavaScript
   - Meteor Js
-  - Bootstrap
-  - React
-  - Web Development
+  - React Bootstrap
   - MongoDB
-  - GitHub
 summary: "Study Buddy, Application, and Interests for the UH Community"
 projecturl: https://github.com/manoa-icstudy/manoa-icstudy
+read: true
 ---
 
 <img class="img-fluid" src="https://manoa-icstudy.github.io/images/LandingPage.png">

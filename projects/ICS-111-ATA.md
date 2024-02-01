@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ics-111-ata/pexels-anna-shvets-5324855.jpg
 title: "ATA of ICS 111"
-date: 2023
+date: 2023-01-01
 published: true
 labels:
   - Java
@@ -11,6 +11,7 @@ labels:
   - Computing Ethics
   - ATA/LA
 summary: "An ATA/LA for ICS 111 and train from ICS 390, Computing Ethics for LAs."
+read: true
 ---
 
 This is an internship and training in ethical issues and teaching skills which help other students succeed in ICS courses.

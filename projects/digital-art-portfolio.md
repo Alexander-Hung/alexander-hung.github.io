@@ -3,13 +3,14 @@ layout: project
 type: project
 image: img/art-portfolio/0.jpg
 title: "Digital Art Portfolio"
-date: 2022
+date: 2022-08-01
 published: true
 labels:
   - Portfolio
   - Art
   - 3D
 summary: "Understanding of realistic 3D objects and creation with these 3D object."
+read: true
 ---
 ### Planes and patterns: 
 
