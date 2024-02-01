@@ -3,19 +3,16 @@ layout: project
 type: project
 image: img/starfarers-abyss/logo.jpg
 title: "Starfarer's Abyss"
-date: 2023
+date: 2023-05-01
 published: true
 labels:
 - Unity Hub
 - C#
 - Game Design
-summary: "A Demo of a 3D Dungeon Crawler in SPACE!!"
+summary: "A video game that combines traditional dungeon crawling with a three-dimensional space setting."
+read: true
+video: https://youtu.be/Wj56f_Xiglw
 ---
-
-## Demo
-[![Watch the video](../img/starfarers-abyss/IMG_1295.png)](https://youtu.be/-nENgiX8vfo)
-
-Click image to Watch the video
 
 ## Description
 
@@ -46,6 +43,6 @@ Gwyneth Raquepo, Kayla Hirano, Anh Nguyen, Marissa Halim, Alexander Hung
 
 ## Link
 
-#### <a href="https://github.com/Alexander-Hung/ICS369-Final-Project">Click for Project Repo</a>
+##### <a class="rounded float-start pe-4" href="https://github.com/Alexander-Hung/ICS369-Final-Project">Click for Project Repo</a>
 
-#### <a href="https://youtu.be/-nENgiX8vfo">Click for Demo Video</a>
+##### <a href="https://youtu.be/-nENgiX8vfo">Click for Demo Video</a>

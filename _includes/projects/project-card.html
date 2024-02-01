@@ -17,7 +17,7 @@
     <div class="card h-100">
       <img src="{{ site.baseurl }}/{{ include.page.image }}" class="card-img-top" alt="{{ include.page.title }}">
       <div class="card-body">
-        <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date }}</small></h5>
+        <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date | date_to_string }}</small></h5>
         <p class="card-text">{{ include.page.summary }}</p>
         <p>
           {% for label in include.page.labels %}
@@ -27,7 +27,15 @@
         {% if page.projecturl %}
         <a href="{{ include.page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
         {% endif %}
+        {% if page.video %}
+        <a href="{{ include.page.video }}" class="btn btn-outline-dark">Watch Video</a>
+        {% endif %}
+        {% if page.dev %}
+        <a href=" " class="btn btn-outline-dark">In development...</a>
+        {% endif %}
+        {% if page.read %}
         <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
+        {% endif %}
 
       </div>
     </div>
