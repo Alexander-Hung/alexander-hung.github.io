@@ -45,14 +45,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Test",
+  subTitle: "PROFESSIONAL FULL STACK DEVELOPER & DATA SCIENTIST WHO LEVERAGES DEEP TECHNICAL KNOW-HOW",
   skills: [
     emoji(
-      "⚡ Test"
+      "⚡ Develop cutting-edge solutions combining front-end and back-end development for web and mobile applications"
     ),
-    emoji("⚡ Test"),
+    emoji("⚡ Utilize machine learning algorithms for predictive analytics and data processing projects"),
     emoji(
-      "⚡ Test"
+      "⚡ Integrate various third-party services and APIs like AWS and Docker to enhance application functionality"
     )
   ],
 
@@ -63,6 +63,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
       skillName: "JavaScript",
@@ -77,13 +81,33 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
+    {
+      skillName: "R",
+      fontAwesomeClassname: "fas fa-project-diagram"  // Placeholder as Font Awesome does not have a specific icon for R
+    },
+    {
+      skillName: "scikit-learn",
+      fontAwesomeClassname: "fas fa-laptop-code"  // Placeholder as Font Awesome does not have a specific icon for scikit-learn
+    },
+    {
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fas fa-brain"  // Placeholder as Font Awesome does not have a specific icon for TensorFlow
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -98,9 +122,10 @@ const educationInfo = {
       logo: require("./assets/images/UHMLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2021 - May 2024",
-      desc: "test",
+      desc: "Ranked top 10% in the program. Took courses about Machine Learning, Data Science, Database Systems,...",
       descBullets: [
-        "Test",
+        "Dean’s List of 12/2021 ",
+        "Dean’s List of 5/2023 – 5/2024"
       ]
     },
   ]
@@ -332,7 +357,8 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "8086392362",
-  email_address: "alexanderhf9ef@gmail.com"
+  email_address: "alexanderhf9ef@gmail.com",
+  display: true
 };
 
 // Twitter Section
