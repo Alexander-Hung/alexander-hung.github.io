@@ -135,7 +135,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      //companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -146,14 +146,14 @@ const workExperiences = {
     {
       role: "Front-End Developer",
       company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      //companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      //companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
@@ -175,7 +175,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      //image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -187,7 +187,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      //image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -214,7 +214,7 @@ const achievementSection = {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      //image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -235,7 +235,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      //image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -248,7 +248,7 @@ const achievementSection = {
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      //image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
@@ -283,7 +283,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
