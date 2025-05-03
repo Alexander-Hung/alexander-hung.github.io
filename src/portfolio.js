@@ -45,12 +45,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PROFESSIONAL FULL STACK DEVELOPER & DATA SCIENTIST WHO LEVERAGES DEEP TECHNICAL KNOW-HOW",
+  subTitle:
+    "PROFESSIONAL FULL STACK DEVELOPER & DATA SCIENTIST WHO LEVERAGES DEEP TECHNICAL KNOW-HOW",
   skills: [
     emoji(
       "⚡ Develop cutting-edge solutions combining front-end and back-end development for web and mobile applications"
     ),
-    emoji("⚡ Utilize machine learning algorithms for predictive analytics and data processing projects"),
+    emoji(
+      "⚡ Utilize machine learning algorithms for predictive analytics and data processing projects"
+    ),
     emoji(
       "⚡ Integrate various third-party services and APIs like AWS and Docker to enhance application functionality"
     )
@@ -90,15 +93,15 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "R",
-      fontAwesomeClassname: "fas fa-project-diagram"  // Placeholder as Font Awesome does not have a specific icon for R
+      fontAwesomeClassname: "fas fa-project-diagram" // Placeholder as Font Awesome does not have a specific icon for R
     },
     {
       skillName: "scikit-learn",
-      fontAwesomeClassname: "fas fa-laptop-code"  // Placeholder as Font Awesome does not have a specific icon for scikit-learn
+      fontAwesomeClassname: "fas fa-laptop-code" // Placeholder as Font Awesome does not have a specific icon for scikit-learn
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "fas fa-brain"  // Placeholder as Font Awesome does not have a specific icon for TensorFlow
+      fontAwesomeClassname: "fas fa-brain" // Placeholder as Font Awesome does not have a specific icon for TensorFlow
     },
     {
       skillName: "AWS",
@@ -123,11 +126,8 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2021 - May 2024",
       desc: "Ranked top 10% in the program. Took courses about Machine Learning, Data Science, Database Systems,...",
-      descBullets: [
-        "Dean’s List of 12/2021 ",
-        "Dean’s List of 5/2023 – 5/2024"
-      ]
-    },
+      descBullets: ["Dean’s List of 12/2021 ", "Dean’s List of 5/2023 – 5/2024"]
+    }
   ]
 };
 
