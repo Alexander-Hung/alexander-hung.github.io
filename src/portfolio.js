@@ -23,7 +23,9 @@ const greeting = {
   username: "Alexander Hung",
   title: "Hi, I am Alexander",
   subTitle: emoji(
-    "Diligence in action, like to build with data, machine learning and LLM, unfolds complexities into achievements."
+    "I’m a newly graduated software developer from Hawaii. I developed a passion for software engineering back in middle school, specifically, the fundamental concepts, structures, and techniques associated with the software development cycle, which led me to pursue a CS degree with a specialization in data science. \n" +
+    "\n" +
+    "Despite spending much of my college time under the COVID restrictions, I’m more motivated than ever to apply my academic skills to solving real-world challenges. I am eager to learn and grow professionally in a constantly evolving world and bring fresh perspectives to any teams I join. Moving to Chicago, a completely new environment, reflects my readiness to embrace changes, face unfamiliar challenges, and thrive beyond the resources I used to take for granted. \n"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -364,8 +366,8 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "AlexanderHung_", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
