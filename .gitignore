@@ -26,3 +26,4 @@ yarn-error.log*
 public/profile.json
 public/blogs.json
 /.idea
+src/containers/greeting/resume.pdf
