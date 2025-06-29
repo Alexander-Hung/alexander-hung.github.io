@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import "./Project.scss";
 import Projects from "../projects/Projects";
 import StartupProject from "../StartupProjects/StartupProject";
-import Profile from "../profile/Profile";           // ← create if you want custom styling
+import Profile from "../profile/Profile";
 
 function Project() {
   return (

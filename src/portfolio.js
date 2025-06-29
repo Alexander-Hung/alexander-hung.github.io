@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi, I am Alexander",
   subTitle: emoji(
     "I’m a newly graduated software developer from Hawaii. I developed a passion for software engineering back in middle school, specifically, the fundamental concepts, structures, and techniques associated with the software development cycle, which led me to pursue a CS degree with a specialization in data science. \n" +
-    "\n" +
+    "\n " +
     "Despite spending much of my college time under the COVID restrictions, I’m more motivated than ever to apply my academic skills to solving real-world challenges. I am eager to learn and grow professionally in a constantly evolving world and bring fresh perspectives to any teams I join. Moving to Chicago, a completely new environment, reflects my readiness to embrace changes, face unfamiliar challenges, and thrive beyond the resources I used to take for granted. \n"
   ),
   resumeLink:
@@ -40,7 +40,7 @@ const socialMediaLinks = {
   gmail: "alexanderhf9ef@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 // Skills Section

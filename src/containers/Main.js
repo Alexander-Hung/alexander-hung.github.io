@@ -6,6 +6,24 @@ import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext.js";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
+import ProjectPresent from "../components/projectPresent/ProjectPresent";
+
+const projects = [
+  {
+    image: "/assets/why-fires.png",
+    title: "Why-Fires",
+    description: "End-to-end wildfire-risk prediction platform.",
+    github: "https://github.com/yourname/why-fires",
+    website: "https://why-fires.com"
+  },
+  {
+    image: "/assets/ring-runner.png",
+    title: "Ring Runner",
+    description: "Auto-play Flappy-Bird-style mini-game built in Godot.",
+    github: "https://github.com/yourname/ring-runner",
+    website: "https://ring-runner.com"
+  }
+];
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -37,6 +55,8 @@ const Main = () => {
         ) : (
           <>
             <Header />
+            <h1>Unfinished, under development</h1>
+            <ProjectPresent projects={projects} />
             <Profile />
           </>
         )}

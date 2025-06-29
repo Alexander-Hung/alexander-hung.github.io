@@ -1,0 +1,59 @@
+.project-present {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+
+  .image-wrapper {
+    position: relative;
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.45);
+      border: none;
+      color: #fff;
+      font-size: 2rem;
+      padding: 0.25rem 0.75rem;
+      cursor: pointer;
+      border-radius: 50%;
+      transition: background 0.2s ease;
+
+      &.left  { left: 10px;  }
+      &.right { right: 10px; }
+
+      &:hover { background: rgba(0, 0, 0, 0.8); }
+    }
+  }
+
+  .info {
+    margin-top: 1.25rem;
+
+    h2 { margin-bottom: 0.5rem; }
+
+    .buttons {
+      margin-top: 0.75rem;
+
+      .btn {
+        display: inline-block;
+        margin: 0 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        background: #007bff;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background 0.2s ease;
+
+        &:hover { background: #0056b3; }
+      }
+    }
+  }
+}

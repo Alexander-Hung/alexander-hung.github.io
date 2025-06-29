@@ -1,74 +1,79 @@
-import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
+// src/containers/projects/Projects.js
+import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import "./Project.scss";
 import Button from "../../components/button/Button";
-import {openSource, socialMediaLinks} from "../../portfolio";
+import { openSource, socialMediaLinks } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+
+const GithubRepoCard = lazy(() =>
+  import("../../components/githubRepoCard/GithubRepoCard")
+);
+
+const FailedLoading = () => null;
+const renderLoader = () => <Loading />;
+
 export default function Projects() {
-  const GithubRepoCard = lazy(() =>
-    import("../../components/githubRepoCard/GithubRepoCard")
-  );
-  const FailedLoading = () => null;
-  const renderLoader = () => <Loading />;
-  const [repo, setrepo] = useState([]);
-  // todo: remove useContex because is not supported
-  const {isDark} = useContext(StyleContext);
+  /* ★ rename: repos / setRepos */
+  const [repos, setRepos] = useState([]);
+  const { isDark } = useContext(StyleContext);
 
   useEffect(() => {
-    const getRepoData = () => {
-      fetch("/profile.json")
-        .then(result => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
-        })
-        .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
-        })
-        .catch(function (error) {
-          console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
-          );
-          setrepoFunction("Error");
-        });
-    };
-    getRepoData();
+    fetch("/profile.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject(r)))
+      .then((json) => {
+        /* 🔎 optional: see the exact shape once */
+        console.log("profile.json →", json);
+
+        // works whether the file has a top-level data{} or not
+        const edges =
+          json?.data?.user?.pinnedItems?.edges ??
+          json?.user?.pinnedItems?.edges ??
+          [];
+
+        setRepos(edges);
+      })
+      .catch((err) => {
+        console.error(err);
+        setRepos("Error");
+      });
   }, []);
 
-  function setrepoFunction(array) {
-    setrepo(array);
-  }
-  if (
-    !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
-  ) {
-    return (
-      <Suspense fallback={renderLoader()}>
-        <div className="main" id="opensource">
-          <h1 className="project-title">Open Source Projects</h1>
-          <div className="repo-cards-div-main">
-            {repo.map((v, i) => {
-              if (!v) {
-                console.error(
-                  `Github Object for repository number : ${i} is undefined`
-                );
-              }
-              return (
-                <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
-              );
-            })}
-          </div>
-          <Button
-            text={"More Projects"}
-            className="project-button"
-            href={socialMediaLinks.github}
-            newTab={true}
-          />
-        </div>
-      </Suspense>
-    );
-  } else {
+
+  /* ★ guard uses repos */
+  if (typeof repos === "string" || !openSource.display) {
     return <FailedLoading />;
   }
+
+  return (
+    <Suspense fallback={renderLoader()}>
+      <div className="main" id="opensource">
+        <h1 className="project-title"></h1>
+
+        <div className="repo-cards-div-main">
+          {repos.map((edge, i) => {
+            if (!edge) return null;
+
+            const imgSrc = `${process.env.PUBLIC_URL}/project-images/${edge.node.name}/showcase.png`;
+
+            return (
+              <GithubRepoCard
+                key={edge.node.id}
+                repo={edge}
+                isDark={isDark}
+                imgSrc={imgSrc}
+              />
+            );
+          })}
+        </div>
+
+        <Button
+          text="More Projects"
+          className="project-button"
+          href={socialMediaLinks.github}
+          newTab
+        />
+      </div>
+    </Suspense>
+  );
 }

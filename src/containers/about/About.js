@@ -6,7 +6,6 @@ import WorkExperience from "../workExperience/WorkExperience";
 import Achievement from "../achievement/Achievement";
 import Blogs from "../blogs/Blogs";
 import Talks from "../talks/Talks";
-import Twitter from "../twitter-embed/twitter";
 import Podcast from "../podcast/Podcast";
 import Profile from "../profile/Profile";
 import Greeting from "../greeting/Greeting";
@@ -23,7 +22,6 @@ function About() {
         <Achievement />
         <Blogs />
         <Talks />
-        <Twitter />
         <Podcast />
         <Profile />
       </main>
