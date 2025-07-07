@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.54fa4cc6.css",
-    "main.js": "/static/js/main.afd6ab26.js",
+    "main.css": "/static/css/main.81854f2e.css",
+    "main.js": "/static/js/main.ce4f99f1.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.fd67f46a.chunk.js": "/static/js/769.fd67f46a.chunk.js",
-    "static/css/64.2d40eca9.chunk.css": "/static/css/64.2d40eca9.chunk.css",
+    "static/css/64.48d551b1.chunk.css": "/static/css/64.48d551b1.chunk.css",
     "static/js/64.e6a993d7.chunk.js": "/static/js/64.e6a993d7.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/UHMLogo.png": "/static/media/UHMLogo.4022848f7b391f88fbcb.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/resume.pdf": "/static/media/resume.75484fd857ed654bbdc7.pdf",
+    "static/media/resume.pdf": "/static/media/resume.07ea81fb43976df38b00.pdf",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.54fa4cc6.css.map": "/static/css/main.54fa4cc6.css.map",
-    "main.afd6ab26.js.map": "/static/js/main.afd6ab26.js.map",
+    "main.81854f2e.css.map": "/static/css/main.81854f2e.css.map",
+    "main.ce4f99f1.js.map": "/static/js/main.ce4f99f1.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.fd67f46a.chunk.js.map": "/static/js/769.fd67f46a.chunk.js.map",
-    "64.2d40eca9.chunk.css.map": "/static/css/64.2d40eca9.chunk.css.map",
+    "64.48d551b1.chunk.css.map": "/static/css/64.48d551b1.chunk.css.map",
     "64.e6a993d7.chunk.js.map": "/static/js/64.e6a993d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54fa4cc6.css",
-    "static/js/main.afd6ab26.js"
+    "static/css/main.81854f2e.css",
+    "static/js/main.ce4f99f1.js"
   ]
 }
