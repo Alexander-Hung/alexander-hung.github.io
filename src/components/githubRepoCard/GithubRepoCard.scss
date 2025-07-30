@@ -4,6 +4,12 @@
    Card container
    ─────────────────────────────────────────────────────────── */
 .repo-card-div {
+  justify-content: center;
+  align-content: center;
+  place-content: center;
+  horiz-align: center;
+  vertical-align: center;
+  text-align: center;
   color: $githubRepoCardColor;
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -27,7 +33,7 @@
    ─────────────────────────────────────────────────────────── */
 .repo-image {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
   border-radius: 6px 6px 0 0;
   margin-bottom: 10px;
@@ -123,4 +129,108 @@
 .dark-card-mode:hover {
   background-color: $buttonColor !important;
   box-shadow: 0px 0px 16px $darkBoxShadow;
+}
+
+.info {
+  font-size: 0.75rem;
+
+  padding: 0;
+
+  .buttons {
+    margin-top: 0.5rem;
+
+    .btn {
+      display: inline-block;
+      margin: 0 0.5rem;
+      border-radius: 4px;
+      background: grey;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s ease;
+
+      &:hover { background: dimgrey; }
+    }
+  }
+}
+
+.info {
+  font-size: 0.75rem;
+
+  padding: 0;
+
+  .buttons {
+    margin-top: 0.5rem;
+
+    .btn2 {
+      display: inline-block;
+      margin: 0 0.5rem;
+      border-radius: 4px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s ease;
+
+      &:hover { background: #0056b3; }
+    }
+  }
+}
+
+.info {
+  font-size: 0.75rem;
+
+  padding: 0;
+
+  .buttons {
+    margin-top: 0.5rem;
+
+    .btn3 {
+      display: inline-block;
+      margin: 0 0.5rem;
+      border-radius: 4px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s ease;
+
+      &:hover { background: #0056b3; }
+    }
+  }
+}
+
+
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  background: var(--primary);
+  color: var(--text-on-primary);
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  background: var(--primary);
+  color: var(--text-on-primary);
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+/* remove default anchor look */
+.btn:link,
+.btn:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
 }

@@ -1,0 +1,45 @@
+@import "../../../_globalColor";
+
+.footer-text {
+  text-align: center;
+  color: $subTitle !important;
+}
+
+.dark-mode {
+  color: $textColorDark !important;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+/* GuideBody.scss */
+.guide-body {
+  margin: 5rem;
+  padding: 0;
+  line-height: 1.7;
+}
+
+.guide-body h2 {
+  margin: 2.5rem 0 1rem;
+  font-size: 1.75rem;
+}
+
+.guide-body ol {
+  margin: 0 0 1.5rem 1.25rem;
+  padding: 0;
+}
+
+.guide-body ol > li {
+  margin-bottom: 1rem;
+}
+
+.sub‑list {
+  margin: 0.75rem 0 1rem 1.5rem;
+  list-style: disc;
+}
+
+.sub‑list li {
+  margin-bottom: 0.5rem;
+}

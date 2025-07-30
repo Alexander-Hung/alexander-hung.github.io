@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
-import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext.js";
@@ -10,18 +9,18 @@ import ProjectPresent from "../components/projectPresent/ProjectPresent";
 
 const projects = [
   {
-    image: "/assets/why-fires.png",
+    image: "/assets/Why-fires.png",
     title: "Why-Fires",
-    description: "End-to-end wildfire-risk prediction platform.",
-    github: "https://github.com/yourname/why-fires",
+    description: "A full-stack application that uses NASA FIRMS MODIS and GADM boundary data to visualize to provide insightful and statistical analysis of wildfires.",
+    github: "https://github.com/Alexander-Hung/Why-fires",
     website: "https://why-fires.com"
   },
   {
-    image: "/assets/ring-runner.png",
-    title: "Ring Runner",
-    description: "Auto-play Flappy-Bird-style mini-game built in Godot.",
-    github: "https://github.com/yourname/ring-runner",
-    website: "https://ring-runner.com"
+    image: "/assets/Digit-Recognizer-Competition.png",
+    title: "Digit Recognizer",
+    description: "Kaggle’s Digit Recognizer challenges you to build an MNIST handwritten-digit classifier for leaderboard ranking.",
+    github: "https://github.com/Alexander-Hung/Digit-Recognizer-Competition",
+    website: "https://www.kaggle.com/competitions/digit-recognizer"
   }
 ];
 
@@ -55,9 +54,7 @@ const Main = () => {
         ) : (
           <>
             <Header />
-            <h1>Unfinished, under development</h1>
             <ProjectPresent projects={projects} />
-            <Profile />
           </>
         )}
       </StyleProvider>

@@ -103,3 +103,33 @@
     text-align: center;
   }
 }
+
+
+/* right‑hand column container */
+.image-content-profile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;       /* keeps layout spacing */
+  padding: 10px;
+}
+
+/* animated phone emoji */
+.phone-emoji {
+  font-size: 4rem;        /* make it nice and big */
+  transform-origin: 60% 40%;
+  animation: phone-ring 1s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* wiggle animation */
+@keyframes phone-ring {
+  0%   { transform: rotate(0deg);   }
+  15%  { transform: rotate(-20deg); }
+  30%  { transform: rotate(18deg);  }
+  45%  { transform: rotate(-15deg); }
+  60%  { transform: rotate(12deg);  }
+  75%  { transform: rotate(-8deg);  }
+  100% { transform: rotate(0deg);   }
+}

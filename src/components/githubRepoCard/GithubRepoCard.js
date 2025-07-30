@@ -6,6 +6,7 @@ import { formatFileSizeDisplay } from "../../utils";
 export default function GithubRepoCard({ repo, isDark, imgSrc }) {
   const [src, setSrc] = useState(imgSrc);
 
+  /** Open GitHub repo in a new tab */
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL in ${name} is undefined`);
@@ -20,7 +21,6 @@ export default function GithubRepoCard({ repo, isDark, imgSrc }) {
       <div
         className={isDark ? "dark-card-mode repo-card-div" : "repo-card-div"}
         key={repo.node.id}
-        onClick={() => openUrlInNewTab(repo.node.url, repo.node.name)}
       >
         {/* ─── optional custom screenshot ───────────────────────── */}
         {src && (
@@ -106,6 +106,22 @@ export default function GithubRepoCard({ repo, isDark, imgSrc }) {
 
           <div className="repo-right-stat">
             <p>{formatFileSizeDisplay(repo.node.diskUsage)}</p>
+          </div>
+        </div>
+
+        {/* ─── action buttons ─────────────────────────────────── */}
+        <div className="info">
+          <div className="buttons">
+            <a
+              className="btn2"
+              href={`/${encodeURIComponent(repo.node.name)}`}
+            >
+              Details
+            </a>
+
+            <span onClick={() => openUrlInNewTab(repo.node.url, repo.node.name)}>
+              <span className="btn">GitHub</span>
+            </span>
           </div>
         </div>
       </div>

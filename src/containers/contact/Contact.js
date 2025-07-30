@@ -35,6 +35,7 @@ export default function Contact() {
                     className="contact-detail"
                     href={"tel:" + contactInfo.number}
                   >
+
                     {contactInfo.number}
                   </a>
                   <br />

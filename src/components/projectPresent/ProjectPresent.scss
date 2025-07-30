@@ -1,5 +1,8 @@
+@import "../../_globalColor";
+
 .project-present {
-  max-width: 700px;
+  height: auto;
+  width: 50%;
   margin: 2rem auto;
   text-align: center;
 
@@ -17,11 +20,11 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      background: rgba(0, 0, 0, 0.45);
+      background: none;
       border: none;
       color: #fff;
-      font-size: 2rem;
-      padding: 0.25rem 0.75rem;
+      font-size: 4rem;
+      padding: 0;
       cursor: pointer;
       border-radius: 50%;
       transition: background 0.2s ease;
@@ -29,12 +32,14 @@
       &.left  { left: 10px;  }
       &.right { right: 10px; }
 
-      &:hover { background: rgba(0, 0, 0, 0.8); }
+      &:hover { color: #1da1f2; }
     }
   }
 
   .info {
     margin-top: 1.25rem;
+
+    padding-bottom: 5rem;
 
     h2 { margin-bottom: 0.5rem; }
 
@@ -56,4 +61,9 @@
       }
     }
   }
+}
+
+.dark_mode {
+  background-color: $darkBackground;
+  color: $textColorDark;
 }

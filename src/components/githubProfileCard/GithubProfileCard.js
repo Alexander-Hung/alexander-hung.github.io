@@ -1,34 +1,40 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./GithubProfileCard.scss";
+
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo, isHireable} from "../../portfolio";
+import { contactInfo, isHireable } from "../../portfolio";
+
 import emoji from "react-easy-emoji";
-import {Fade} from "react-reveal";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function GithubProfileCard({prof}) {
-  const {isDark} = useContext(StyleContext);
-  if (isHireable) {
-    prof.hireable = "Yes";
-  } else {
-    prof.hireable = "No";
-  }
+export default function GithubProfileCard({ prof }) {
+  const { isDark } = useContext(StyleContext);
+
+  // reflect portfolio flag
+  prof.hireable = isHireable ? "Yes" : "No";
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
         <h1 className="prof-title">Reach Out to me!</h1>
+
         <div className="row">
+          {/* ---------- LEFT SIDE ---------- */}
           <div className="main-content-profile">
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
+
+            {/* bio */}
             <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
-            {prof.location !== null && (
+
+            {/* location */}
+            {prof.location && (
               <div className="location-div">
                 <span className="desc-prof">
                   <svg
                     viewBox="-0.5 -2 20 19"
-                    version="1.1"
                     width="22"
                     height="16"
                     aria-hidden="true"
@@ -43,6 +49,8 @@ export default function GithubProfileCard({prof}) {
                 </span>
               </div>
             )}
+
+            {/* phone / email / socials */}
             <div
               className={
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
@@ -52,7 +60,7 @@ export default function GithubProfileCard({prof}) {
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    href={`tel:${contactInfo.number}`}
                   >
                     {contactInfo.number}
                   </a>
@@ -60,9 +68,10 @@ export default function GithubProfileCard({prof}) {
                   <br />
                 </>
               )}
+
               <a
                 className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
+                href={`mailto:${contactInfo.email_address}`}
               >
                 {contactInfo.email_address}
               </a>
@@ -71,13 +80,13 @@ export default function GithubProfileCard({prof}) {
               <SocialMedia />
             </div>
           </div>
-          <div className="image-content-profile">
-            <img
-              src={prof.avatarUrl}
-              alt={prof.name}
-              className="profile-image"
-            />
-          </div>
+
+          {/* ---------- RIGHT SIDE (JUST THE PHONE) ---------- */}
+          {contactInfo.number && (
+            <div className="image-content-profile">
+              <span className="phone-emoji">{emoji("📞")}</span>
+            </div>
+          )}
         </div>
       </div>
     </Fade>

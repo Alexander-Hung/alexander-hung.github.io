@@ -40,7 +40,7 @@ const socialMediaLinks = {
   gmail: "alexanderhf9ef@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: false // Set true to display this section, defaults to false
+  display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -127,8 +127,9 @@ const educationInfo = {
       logo: require("./assets/images/UHMLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2021 - May 2024",
-      desc: "Ranked top 10% in the program. Took courses about Machine Learning, Data Science, Database Systems,...",
-      descBullets: ["Dean’s List of 12/2021 ", "Dean’s List of 5/2023 – 5/2024"]
+      desc: "Coursework:",
+      descBullets: ["Big Data Analytics", "Data Science Fundamentals", "Data Science Fundamentals", "Data Visualization", "Intro to Climate Modeling", "Introduction \n" +
+      "to Econometrics", "Machine Learning Fundamentals"]
     }
   ]
 };
@@ -160,29 +161,14 @@ const workExperiences = {
   display: false, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      //companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Independent Developer",
+      company: "Why-fires",
+      date: "September 2023 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      //companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      //companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -295,7 +281,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -358,9 +344,9 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "8086392362",
-  email_address: "alexanderhf9ef@gmail.com",
-  display: true
+  number: "",
+  email_address: "",
+  display: false
 };
 
 // Twitter Section

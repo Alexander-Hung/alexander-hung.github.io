@@ -1,4 +1,3 @@
-// src/containers/projects/Projects.js
 import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import "./Project.scss";
 import Button from "../../components/button/Button";
@@ -23,7 +22,7 @@ export default function Projects() {
       .then((r) => (r.ok ? r.json() : Promise.reject(r)))
       .then((json) => {
         /* 🔎 optional: see the exact shape once */
-        console.log("profile.json →", json);
+        //console.log("profile.json →", json);
 
         // works whether the file has a top-level data{} or not
         const edges =
@@ -48,7 +47,7 @@ export default function Projects() {
   return (
     <Suspense fallback={renderLoader()}>
       <div className="main" id="opensource">
-        <h1 className="project-title"></h1>
+        <h1 className="project-title">Github</h1>
 
         <div className="repo-cards-div-main">
           {repos.map((edge, i) => {
@@ -67,12 +66,14 @@ export default function Projects() {
           })}
         </div>
 
-        <Button
-          text="More Projects"
-          className="project-button"
-          href={socialMediaLinks.github}
-          newTab
-        />
+        <div className="project-button-wrapper">
+          <Button
+            text="More Projects"
+            className="project-button"
+            href={socialMediaLinks.github}
+            newTab
+          />
+        </div>
       </div>
     </Suspense>
   );

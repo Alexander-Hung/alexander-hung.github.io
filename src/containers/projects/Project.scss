@@ -10,6 +10,8 @@
 }
 
 .repo-cards-div-main {
+  justify-items: center;
+  margin: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem 1rem;
@@ -29,4 +31,10 @@
   .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+}
+
+.project-button-wrapper {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;  /* horizontal centering */
 }

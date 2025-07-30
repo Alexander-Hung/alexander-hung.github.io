@@ -1,12 +1,21 @@
 import React from "react";
 import "./Button.scss";
 
-export default function Button({text, className, href, newTab}) {
+export default function Button({
+                                 text,
+                                 className = "",
+                                 href = "#",
+                                 newTab = false,
+                                 download,              // e.g. "Resume.pdf"
+                               }) {
   return (
-    <div className={className}>
-      <a className="main-button" href={href} target={newTab && "_blank"}>
-        {text}
-      </a>
-    </div>
+    <a
+      href={href}
+      className={`main-button ${className}`}
+      {...(newTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+      {...(download ? { download } : {})}
+    >
+      {text}
+    </a>
   );
 }

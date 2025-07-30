@@ -3,7 +3,8 @@ import Header from "../../components/header/Header";
 import "./Project.scss";
 import Projects from "../projects/Projects";
 import StartupProject from "../StartupProjects/StartupProject";
-import Profile from "../profile/Profile";
+import Footer from "../../components/footer/Footer";
+import ScrollToTopButton from "../topbutton/Top"
 
 function Project() {
   return (
@@ -13,8 +14,10 @@ function Project() {
       <main className="project">
         <Projects />
         <StartupProject />
-        <Profile />
+        <ScrollToTopButton />
       </main>
+
+      <Footer />
     </>
   );
 }

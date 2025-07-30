@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, {useContext, useState} from "react";
 import "./ProjectPresent.scss";
+import StyleContext from "../../contexts/StyleContext";
 
 function ProjectPresent({ projects }) {
   const [index, setIndex] = useState(0);
@@ -10,8 +11,11 @@ function ProjectPresent({ projects }) {
 
   const { image, title, description, github, website } = projects[index];
 
+  const {isDark} = useContext(StyleContext);
+
   return (
-    <section className="project-present">
+
+    <section className={isDark ? "dark-mode project-present" : "project-present"}>
       {/* ─── image + arrows ─────────────────────────────────────────── */}
       <div className="image-wrapper">
         <button className="nav left" onClick={prev} aria-label="Previous">
@@ -26,7 +30,7 @@ function ProjectPresent({ projects }) {
       </div>
 
       {/* ─── text + buttons ─────────────────────────────────────────── */}
-      <div className="info">
+      <div className={isDark ? "dark-mode info" : "info"}>
         <h2>{title}</h2>
         <p>{description}</p>
 
